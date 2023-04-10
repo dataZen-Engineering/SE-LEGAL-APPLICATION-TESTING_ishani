@@ -1,0 +1,370 @@
+{
+  "id": "459fd9c0-ba74-4e1d-9eb3-ad38146fa9f0",
+  "version": "2.0",
+  "name": "SE LEGAL APPLICATION",
+  "url": "https://s3archival.se.com/se_legal",
+  "tests": [{
+    "id": "0bc58995-6972-40a9-a88c-4261fa51439b",
+    "name": "S1_Single Search option",
+    "commands": [{
+      "id": "fcb172bc-b341-4b27-b594-7f8d42c3d7d9",
+      "comment": "",
+      "command": "open",
+      "target": "/se_legal",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8378c64-7bed-4fd6-97b2-138c3d3b2951",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93b0afd8-0120-42dd-931a-f9111e20fb34",
+      "comment": "",
+      "command": "clickAt",
+      "target": "xpath=//body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "253ecffb-5a87-4db3-8e08-767319a2174a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='menu-']/div[3]/ul/li",
+      "targets": [
+        ["css=.MuiMenuItem-root", "css:finder"],
+        ["xpath=//div[@id='menu-']/div[3]/ul/li", "xpath:idRelative"],
+        ["xpath=//div[3]/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Name')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c3ac763-e338-4218-8bf2-82a08d3532bf",
+      "comment": "",
+      "command": "clickAt",
+      "target": "xpath=//body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "330dc157-7fdc-43ae-ba1d-da761d9d5ca4",
+      "comment": "",
+      "command": "clickAt",
+      "target": "xpath=//div[@id='menu-']/div[3]/ul/li[4]",
+      "targets": [
+        ["css=.MuiMenuItem-root:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='menu-']/div[3]/ul/li[4]", "xpath:idRelative"],
+        ["xpath=//li[4]", "xpath:position"],
+        ["xpath=//li[contains(.,'Contain')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "06588b08-e731-48bb-b68f-fb75a8301ab0",
+      "comment": "",
+      "command": "clickAt",
+      "target": "xpath=//input[@id='mui-2']",
+      "targets": [
+        ["id=mui-2", "id"],
+        ["css=#mui-2", "css:finder"],
+        ["xpath=//input[@id='mui-2']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div/div/div/div/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69005d9e-45e5-4b5e-83f2-24e6b7205891",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='mui-2']",
+      "targets": [
+        ["id=mui-2", "id"],
+        ["css=#mui-2", "css:finder"],
+        ["xpath=//input[@id='mui-2']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div/div/div/div/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "DENNY'S ELECTRIC LLC_NEW ACCOUNTS FORM_06-15-18.pdf.xlsx"
+    }, {
+      "id": "1992849b-b2d9-4566-93fe-708896a48b1e",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.css-1px0r2z:nth-child(2) .MuiSvgIcon-root",
+      "targets": [
+        ["css=.css-1px0r2z:nth-child(2) .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1357531-481b-41bb-ac13-d3f69b011c61",
+      "comment": "",
+      "command": "clickAt",
+      "target": "xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]",
+      "targets": [
+        ["css=.MuiGrid-grid-md-9\\.2", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "50ee08c4-5135-4495-917a-e5e29924ca94",
+    "name": "S2_Single Search option",
+    "commands": [{
+      "id": "7e473f7a-e1bf-448e-a98c-093cb90f71ba",
+      "comment": "",
+      "command": "open",
+      "target": "https://s3archival.se.com/se_legal",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51a6b118-3c2a-4707-9bb0-426aab80a59a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1058x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6621c1f8-89b3-43c9-90b7-8212a2157812",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f69392ea-1cd5-4e79-aa59-7494b8fd3c08",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc0cf9b3-8852-49a0-b301-a46ac04602a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95c4a285-70ff-408f-9a97-bef6d96fcb29",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiMenuItem-root",
+      "targets": [
+        ["css=.MuiMenuItem-root", "css:finder"],
+        ["xpath=//div[@id='menu-']/div[3]/ul/li", "xpath:idRelative"],
+        ["xpath=//div[3]/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Name')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "169c34f1-25dc-491c-b651-f84b9c5ef07c",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b4d4bd6-1477-45e5-8af9-dcd58d373b76",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiMenuItem-root:nth-child(1)",
+      "targets": [
+        ["css=.MuiMenuItem-root:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='menu-']/div[3]/ul/li", "xpath:idRelative"],
+        ["xpath=//div[3]/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'=')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a20bc04-4298-4d7e-91ec-f72608c1d67b",
+      "comment": "",
+      "command": "click",
+      "target": "id=mui-2",
+      "targets": [
+        ["id=mui-2", "id"],
+        ["css=#mui-2", "css:finder"],
+        ["xpath=//input[@id='mui-2']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div/div/div/div/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6a84843-d12b-4e12-9a4e-f91ef6dc721c",
+      "comment": "",
+      "command": "type",
+      "target": "id=mui-2",
+      "targets": [
+        ["id=mui-2", "id"],
+        ["css=#mui-2", "css:finder"],
+        ["xpath=//input[@id='mui-2']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div/div/div/div/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "ASCO HR Supporting Resources.pptx"
+    }, {
+      "id": "518df1eb-1b3c-408f-a1ed-2e8d2a5fec11",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1px0r2z:nth-child(2) > #resetButton1",
+      "targets": [
+        ["css=.css-1px0r2z:nth-child(2) > #resetButton1", "css:finder"],
+        ["xpath=(//button[@id='resetButton1'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f96507da-2806-42d4-85ae-095d3acada5e",
+    "name": "S3_download file option",
+    "commands": [{
+      "id": "4fc09017-98c3-4e84-9c7a-e54aca166839",
+      "comment": "",
+      "command": "open",
+      "target": "https://s3archival.se.com/se_legal",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "532a2851-e396-4bc6-b453-e4600fb796ad",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1058x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16cdc412-d5a5-4a93-9fb3-1028eb1c03c7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "509aa180-3d02-4f27-ab06-8c323bbdb7e3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a399859-f6f7-4d59-9e2a-61d1c947bfc0",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4a39030-0361-4d04-ac9a-13c9eab1ae6c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiMenuItem-root:nth-child(1)",
+      "targets": [
+        ["css=.MuiMenuItem-root:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='menu-']/div[3]/ul/li", "xpath:idRelative"],
+        ["xpath=//div[3]/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'=')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9b8c76b-04ff-44d0-9d2e-5697952ab21a",
+      "comment": "",
+      "command": "click",
+      "target": "id=mui-2",
+      "targets": [
+        ["id=mui-2", "id"],
+        ["css=#mui-2", "css:finder"],
+        ["xpath=//input[@id='mui-2']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div/div/div/div/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "814f7b94-a6f5-488f-bd1f-7f0d06a01a27",
+      "comment": "",
+      "command": "type",
+      "target": "id=mui-2",
+      "targets": [
+        ["id=mui-2", "id"],
+        ["css=#mui-2", "css:finder"],
+        ["xpath=//input[@id='mui-2']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div/div/div/div/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "2018 Benefits Overview for ASCO_12.11.17.pptx"
+    }, {
+      "id": "2dfc198a-7c68-4946-9832-ba5ca41d9707",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1px0r2z:nth-child(2) > #resetButton1",
+      "targets": [
+        ["css=.css-1px0r2z:nth-child(2) > #resetButton1", "css:finder"],
+        ["xpath=(//button[@id='resetButton1'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6791f3c6-30d1-4643-b12b-52c77bfb61d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiDataGrid-cellCheckbox .PrivateSwitchBase-input",
+      "targets": [
+        ["css=.MuiDataGrid-cellCheckbox .PrivateSwitchBase-input", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div[4]/div/div/div[2]/div[2]/div/div/div/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05e83846-c3da-4155-bd06-9724a42b63a1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-1685d6w .MuiSvgIcon-root",
+      "targets": [
+        ["css=.css-1685d6w .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "78b935df-d7b0-4272-a632-2584ece9980e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1685d6w .MuiSvgIcon-root",
+      "targets": [
+        ["css=.css-1685d6w .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7776f06-0a8b-4d67-b3b5-e4cd58bdf7c8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.css-1685d6w .MuiSvgIcon-root",
+      "targets": [
+        ["css=.css-1685d6w .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2eecf3a2-884e-4861-86a5-01cb50d2a109",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0bc58995-6972-40a9-a88c-4261fa51439b"]
+  }],
+  "urls": ["https://s3archival.se.com/", "https://s3archival.se.com/se_legal"],
+  "plugins": []
+}

@@ -1,0 +1,238 @@
+{
+  "id": "b30f8820-7157-4d0e-a193-1c4a5c7b09d7",
+  "version": "2.0",
+  "name": "SE LEGAL APPLICATION",
+  "url": "https://s3archival.se.com/se_legal",
+  "tests": [{
+    "id": "edc0d47d-86e4-4478-8a23-6957883e1f78",
+    "name": "SINGLE SEARCH",
+    "commands": [{
+      "id": "9f97a9dc-2f37-42f0-a5be-6c49c3f722c8",
+      "comment": "",
+      "command": "open",
+      "target": "https://s3archival.se.com/se_legal",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd040c0d-2b3c-4c65-98a8-9f3bb1a752ec",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9f6f617-16c6-47d1-8b5f-43867f7bbaff",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1906f24e-7a94-4619-8186-54415aa4d273",
+      "comment": "",
+      "command": "clickAt",
+      "target": "xpath=//body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72b20ade-21bc-44cc-8a8f-c20b0804de3c",
+      "comment": "",
+      "command": "clickAt",
+      "target": "xpath=//input[@id='mui-2']",
+      "targets": [
+        ["id=mui-2", "id"],
+        ["css=#mui-2", "css:finder"],
+        ["xpath=//input[@id='mui-2']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div/div/div/div/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d137cd8-2e34-41d2-9158-349c5b6a6428",
+      "comment": "",
+      "command": "clickAt",
+      "target": "xpath=//div/div/div/div[2]/div/div/div",
+      "targets": [
+        ["css=.css-1t8y7w", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a2ee96b-ce23-4140-87fc-c7a288f6254d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-1px0r2z:nth-child(2) .MuiSvgIcon-root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "758109ef-82a5-487c-b2fe-07bb6cf1b641",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='mui-2']",
+      "targets": [
+        ["id=mui-2", "id"],
+        ["css=#mui-2", "css:finder"],
+        ["xpath=//input[@id='mui-2']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div/div/div/div/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "1.dwg"
+    }, {
+      "id": "9b9203c4-18fb-4dd0-a3f4-45b1b548908f",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.css-1px0r2z:nth-child(2) .MuiSvgIcon-root",
+      "targets": [
+        ["css=.css-1px0r2z:nth-child(2) .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a2a2a17-393d-41d0-8b33-0350b712d9d1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b6ed200-bd10-404c-92e3-7a0a0064b614",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.css-1px0r2z:nth-child(2) .MuiSvgIcon-root",
+      "targets": [
+        ["css=.css-1px0r2z:nth-child(2) .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "56c600c1-da17-4c0b-bfc8-32abcc8a7467",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.MuiDataGrid-row:nth-child(1) a path",
+      "targets": [
+        ["css=.MuiDataGrid-row:nth-child(1) a path", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d1c45819-ecc8-4a71-a8bf-b831aaa58d45",
+    "name": "Single Search S2",
+    "commands": [{
+      "id": "7297d44e-50e0-4519-b9de-22e6f295ae41",
+      "comment": "",
+      "command": "open",
+      "target": "https://s3archival.se.com/se_legal",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d94a407d-fbe6-4dd7-8dd6-b05abf764adb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "facb061e-7086-4d9e-b5f8-24ef9e11ea2f",
+      "comment": "",
+      "command": "click",
+      "target": "id=mui-2",
+      "targets": [
+        ["id=mui-2", "id"],
+        ["css=#mui-2", "css:finder"],
+        ["xpath=//input[@id='mui-2']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div/div/div/div/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be2a7599-f919-47d9-955f-b07aef4dd327",
+      "comment": "",
+      "command": "type",
+      "target": "id=mui-2",
+      "targets": [
+        ["id=mui-2", "id"],
+        ["css=#mui-2", "css:finder"],
+        ["xpath=//input[@id='mui-2']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div/div/div/div/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "83c441ae-5f97-46ee-9a56-7549a2f2f3ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1px0r2z:nth-child(2) .MuiSvgIcon-root",
+      "targets": [
+        ["css=.css-1px0r2z:nth-child(2) .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a49613a-e0b9-4748-bde1-b7bddc18c421",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94fea7fd-58b9-4944-b4c8-89d23961690f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiDataGrid-row:nth-child(1) > .MuiDataGrid-cell--withRenderer > div path",
+      "targets": [
+        ["css=.MuiDataGrid-row:nth-child(1) > .MuiDataGrid-cell--withRenderer > div path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "78fbf435-658a-4b3a-83ec-13fcf82b1875",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiDataGrid-row:nth-child(1) > .MuiDataGrid-cell--withRenderer > div > .MuiButtonBase-root",
+      "targets": [
+        ["css=.MuiDataGrid-row:nth-child(1) > .MuiDataGrid-cell--withRenderer > div > .MuiButtonBase-root", "css:finder"],
+        ["xpath=(//button[@type='button'])[27]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div[4]/div/div/div[2]/div[2]/div/div/div/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/div/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bee61051-33bb-4f9f-9278-2d172280ffb5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiDataGrid-row:nth-child(2) a path",
+      "targets": [
+        ["css=.MuiDataGrid-row:nth-child(2) a path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "707dd31a-711b-46a6-97ff-0c4e35dcf6e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiDataGrid-row:nth-child(2) a path",
+      "targets": [
+        ["css=.MuiDataGrid-row:nth-child(2) a path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f224aa7b-005d-45cd-a6a8-969acd9b1a6b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.MuiDataGrid-row:nth-child(2) a path",
+      "targets": [
+        ["css=.MuiDataGrid-row:nth-child(2) a path", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "86d9a767-e6f9-4eaa-b563-fc45e6e76263",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://s3archival.se.com/se_legal"],
+  "plugins": []
+}
